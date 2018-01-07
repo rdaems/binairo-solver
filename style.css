@@ -1,0 +1,25 @@
+html {	overflow-y: scroll;	overflow-x: hidden;}body {
+	text-align: center;	background: fixed;	background-image: url('images/bg.png');	background-color:#ccc;}#pin {	font-size: 16px;	width: 60px;	position:absolute;	top:50%;}
+.titel {
+	color: white;
+	font: 44px Calibri;
+	margin: 20px;	text-shadow: 1px 1px 2px black;
+}
+.p2 {	color: white;
+	font: 11px Calibri;	margin: 20px;	text-shadow: 1px 1px 2px black;
+}.loading {	font: 24px Freestyle Script, fantasy;}
+div.t {	display: inline-block;	padding: 40px;	max-width: 800px;	border: 1px solid #CCCCCC;	background: white;	text-align: left;	box-shadow: 4px 4px 8px black;}div.no_selection {    -webkit-user-select: none; /* webkit (safari, chrome) browsers */    -moz-user-select: none; /* mozilla browsers */    -khtml-user-select: none; /* webkit (konqueror) browsers */    -ms-user-select: none; /* IE10+ */}
+div.w {
+	display: inline-block;	height: 24px;	width: 24px;	font: bold 18px sans-serif;	color: #333;	text-align:center;	line-height: 24px;	vertical-align: top;	border: 1px solid #333;	margin: 1px;	cursor: default;	box-shadow: 1px 1px 1px #ccc;
+}
+div.wA {	display: inline-block;	border: 1px solid white;	margin: 3px;	height: 12px;	width: 12px;	font: 8px sans-serif;	text-align:center;	line-height: 12px;	vertical-align: top;	box-shadow: 0px 0px 6px black;	cursor: default;}
+.wL {	display: inline-block;	border: 1px solid grey;	margin: 15px 0px 15px 15px;	height: 60px;	width: 60px;	font: 40px sans-serif;	text-align:center;	line-height: 60px;	vertical-align: top;	box-shadow: 1px 1px 2px grey;}
+.tL {	display: inline-block;	margin:33px 0px;	width:319px;	height:28px;	text-align:center;	font: 28px Freestyle Script, fantasy;}
+.xL {	resize: none;	margin: 0px 6px 6px 6px;	border: 1px dashed #CCCCCC;	width: 380px;	height: 192px;	padding: 3px;	font: 13px Calibri;}
+.xL:focus {	border: 1px solid #CCCCCC;}
+div.kL {	cursor:pointer;	border: 1px solid #FF6600;	box-shadow: 1px 1px 2px grey;	width:120px;	height:18px;	background: #FF6600;	margin: 8px 139px 8px 139px;	line-height:13px;	font: bold 13px Verdana;	color: white;	text-align: center;}
+div.kL:hover {	background: white;	color: #FF6600;	border: 1px solid #FF6600;}
+div.kLd {	cursor:default;	border: 1px solid #EEEEEE;	width:120px;	height:18px;	background: white;	margin: 8px 139px 8px 139px;	line-height:13px;	font: bold 13px Verdana;	color: #EEEEEE;	text-align: center;}
+.info {
+	display: none;	text-align:left;	width: 400px;	height: 300px;	border: 1px solid grey;	box-shadow: rgba(0,0,0,0.2) 0px 0px 32px;	background: white;	position: absolute;	left: 50%;	top: 50%;	margin: -150px 0 0 -200px;	z-index: 2;}
+#saved {	display: none;	font: bold 11px Verdana;	color: #333333;	width: 180px;	border: 1px solid #ffd447;	box-shadow: rgba(0,0,0,0.2) 2px 2px 8px;	background: #ffe17d;	position: fixed;	left: 50%;	top: 2px;	margin: 0 0 0 -90px;	padding: 2px;	z-index: 3;}.ui-tooltip {	font: 9px Verdana;	color: #333333;	border: 1px solid #ffd447;	border-radius: 0;	box-shadow: rgba(0,0,0,0.2) 2px 2px 8px;	background: #ffe17d;	padding: 1px;	z-index: 4;}
